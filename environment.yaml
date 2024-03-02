@@ -1,0 +1,145 @@
+name: vq_watermark
+channels:
+  - pytorch
+  - nvidia
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+
+  - blas=1.0
+  - brotlipy=0.7.0
+  - bzip2=1.0.8
+  - ca-certificates=2023.08.22
+  - certifi=2022.12.7
+  - cffi=1.15.1
+  - charset-normalizer=2.0.4
+  - cryptography=39.0.1
+  - cuda-cudart=11.7.99
+  - cuda-cupti=11.7.101
+  - cuda-libraries=11.7.1
+  - cuda-nvrtc=11.7.99
+  - cuda-nvtx=11.7.91
+  - cuda-runtime=11.7.1
+  - ffmpeg=4.3
+  - freetype=2.12.1
+  - giflib=5.2.1
+
+
+  - idna=3.4
+  - intel-openmp=2021.4.0
+  - jpeg=9e
+
+  - lcms2=2.12
+
+  - lerc=3.0
+  - libcublas=11.10.3.66
+  - libcufft=10.7.2.124
+
+  - libcurand=10.3.4.101
+  - libcusolver=11.4.0.1
+  - libcusparse=11.7.4.91
+  - libdeflate=1.17
+  - libffi=3.4.4
+
+
+  - libiconv=1.16
+
+  - libnpp=11.7.4.75
+  - libnvjpeg=11.8.0.2
+  - libpng=1.6.39
+
+
+  - libtiff=4.5.1
+
+  - libwebp=1.2.4
+  - libwebp-base=1.2.4
+  - lz4-c=1.9.4
+  - mkl=2021.4.0
+  - mkl-service=2.4.0
+  - mkl_fft=1.3.1
+  - mkl_random=1.2.2
+
+
+  - numpy=1.21.5
+  - numpy-base=1.21.5
+
+  - openssl=1.1.1w
+  - pillow=9.4.0
+  - pip=22.3.1
+  - pycparser=2.21
+  - pyopenssl=23.0.0
+  - pysocks=1.7.1
+  - python=3.7.16
+  - pytorch=1.13.1
+  - pytorch-cuda=11.7
+  - pytorch-mutex=1.0
+
+  - requests=2.28.1
+  - setuptools=65.6.3
+  - six=1.16.0
+  - sqlite=3.41.2
+  - tk=8.6.12
+  - torchaudio=0.13.1
+  - torchvision=0.14.1
+  - typing_extensions=4.3.0
+  - urllib3=1.26.14
+  - wheel=0.38.4
+  - xz=5.4.2
+  - zlib=1.2.13
+  - zstd=1.5.5
+  - pip:
+      - gmp=6.2.1
+      - libgcc-ng=11.2.0
+      - libstdcxx-ng=11.2.0
+      - openh264=2.1.1
+      - libgomp=11.2.0
+      - gnutls=3.6.15
+      - ncurses=6.4
+      - nettle=3.7.3
+      - ld_impl_linux-64=2.38
+      - lame=3.100
+      - readline=8.2
+      - libidn2=2.3.4
+      - libtasn1=4.19.0
+      - libcufile=1.8.1.2
+      - libunistring=0.9.10
+      - _openmp_mutex=5.1
+
+      - aiohttp==3.8.6
+      - aiosignal==1.3.1
+      - antlr4-python3-runtime==4.9.3
+      - async-timeout==4.0.3
+      - asynctest==0.13.0
+      - attrs==23.1.0
+      - einops==0.6.1
+      - frozenlist==1.3.3
+      - fsspec==2023.1.0
+      - imageio==2.31.2
+      - imageio-ffmpeg==0.4.9
+      - importlib-metadata==6.7.0
+      - joblib==1.3.2
+      - lightning-utilities==0.10.0
+      - lpips==0.1.4
+      - multidict==6.0.4
+      - networkx==2.6.3
+      - omegaconf==2.3.0
+      - packaging==23.2
+      - pytorch-fid==0.3.0
+      - pytorch-lightning==1.9.5
+      - pytorch-msssim==1.0.0
+      - pywavelets==1.3.0
+      - pyyaml==6.0.1
+      - scikit-image==0.19.3
+      - scikit-learn==1.0.2
+      - scipy==1.7.3
+      - threadpoolctl==3.1.0
+      - tifffile==2021.11.2
+      - torchmetrics==0.11.4
+      - tqdm==4.66.1
+      - yarl==1.9.3
+      - zipp==3.15.0
+prefix: /home/chenzhipeng/miniconda3/envs/vq_watermark
